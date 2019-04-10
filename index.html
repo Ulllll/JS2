@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson4</title>
+     <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="redactorText">
+      <h3>Редактор текста. Замена одинарных кавычек на двойные</h3>
+    <textarea id="textarea"></textarea>
+    <div id="block"></div>
+  </div>
+   
+    <div class="formForValid">
+    <h3>Форма </h3>
+    <label ><input class="form" type="text" placeholder="Anna"> Введите имя</label> <br>
+    <p id="error1">Имя может содержать только латинские буквы</p>
+    <label ><input type="text" class="form" placeholder="+7(000)000-00-00"> Введите телефон</label> <br>
+    <p id="error2">Телефон должен быть вида +7(000)000-00-00</p>
+    <label><input type="text" class="form" placeholder="example@example.example"> Введите e-mail </label>
+     <br>
+    <p id="error3">E-mail должен быть вида example@example.example</p>
+    <button onclick="valid()">Подтвердить</button> <br>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="valid.js"></script>
+</body>
+</html>
